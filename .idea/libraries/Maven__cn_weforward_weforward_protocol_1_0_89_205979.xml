@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.weforward:weforward-protocol:1.0.89.205979">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-protocol/1.0.89.205979/weforward-protocol-1.0.89.205979.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-protocol/1.0.89.205979/weforward-protocol-1.0.89.205979-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-protocol/1.0.89.205979/weforward-protocol-1.0.89.205979-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

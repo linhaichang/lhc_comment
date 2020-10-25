@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.weforward:weforward-data-mongodb:1.0.19.205993">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-data-mongodb/1.0.19.205993/weforward-data-mongodb-1.0.19.205993.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-data-mongodb/1.0.19.205993/weforward-data-mongodb-1.0.19.205993-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-data-mongodb/1.0.19.205993/weforward-data-mongodb-1.0.19.205993-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

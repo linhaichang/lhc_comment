@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.weforward:weforward-metrics:1.0.11.205982">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-metrics/1.0.11.205982/weforward-metrics-1.0.11.205982.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-metrics/1.0.11.205982/weforward-metrics-1.0.11.205982-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../working/cn/weforward/weforward-metrics/1.0.11.205982/weforward-metrics-1.0.11.205982-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
