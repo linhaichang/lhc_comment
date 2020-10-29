@@ -5,9 +5,9 @@
 
     <groupId>cn.haichang</groupId>
     <artifactId>lhc_comment</artifactId>
-    <version>1.0.2.959301M</version>
+    <version>1.0.2.960347</version>
 
-    <name>lhc_assignment</name>
+    <name>lhc_commit</name>
     <url>http://weforward.cn</url>
 
     <properties>
