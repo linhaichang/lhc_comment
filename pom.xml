@@ -5,7 +5,7 @@
 
     <groupId>cn.haichang</groupId>
     <artifactId>lhc_comment</artifactId>
-    <version>1.0.2.960347</version>
+    <version>1.0.2.960964</version>
 
     <name>lhc_commit</name>
     <url>http://weforward.cn</url>
@@ -50,7 +50,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>lhc_assignment</finalName>
+        <finalName>lhc_commit</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
