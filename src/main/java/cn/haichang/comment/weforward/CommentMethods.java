@@ -5,6 +5,7 @@ import cn.haichang.comment.CommentService;
 import cn.haichang.comment.impl.CommentImpl;
 import cn.haichang.comment.weforward.view.CommentView;
 import cn.weforward.common.ResultPage;
+import cn.weforward.common.util.TransResultPage;
 import cn.weforward.framework.ApiException;
 import cn.weforward.framework.WeforwardMethod;
 import cn.weforward.framework.WeforwardMethods;
@@ -30,7 +31,7 @@ public class CommentMethods {
     @WeforwardMethod
     @DocMethod(description = "创建评论", index = 0)
     @DocParameter({
-            @DocAttribute(name = "accessId",type = String.class,necessary = true,description = "接入评论的id"),
+            @DocAttribute(name = "accessId",type = String.class,necessary = true,description = "需要接入评论的id"),
             @DocAttribute(name = "content",type = String.class,necessary = true,description = "评论内容")
     })
     public CommentView createComment(FriendlyObject params) throws ApiException {
@@ -46,9 +47,15 @@ public class CommentMethods {
     @DocMethod(description = "获取接入对象的所有评论")
     @DocParameter(@DocAttribute(name = "accessId",type = String.class,necessary = true,description = "需要添加评论的目标对象id"))
     @WeforwardMethod
-    public ResultPage<CommentImpl> getComments(FriendlyObject params) throws ApiException {
+    public ResultPage<CommentView> getComments(FriendlyObject params) throws ApiException {
         String accessId = params.getString("accessId");
         ValidateUtil.isEmpty(accessId,"接入对象id不可为空");
-        return m_CommentService.getComments(accessId);
+        ResultPage<Comment> rp = m_CommentService.getComments(accessId);
+        return new TransResultPage<CommentView,Comment>(rp) {
+            @Override
+            protected CommentView trans(Comment comment) {
+                return CommentView.valueOf(comment);
+            }
+        };
     }
 }

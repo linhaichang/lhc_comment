@@ -10,12 +10,17 @@ import cn.weforward.common.ResultPage;
 public interface CommentService {
     /**
      * 创建评论 
-     * @param accessId 
-     * @param content 
+     * @param accessId 接入对象的id
+     * @param content 评论内容
      * @return
      */
     Comment createComment(String accessId,String content);
 
-    ResultPage<CommentImpl> getComments(String accessId);
+    /**
+     * 获取接入对象的所有评论
+     * @param accessId 接入对象的id
+     * @return
+     */
+    ResultPage<Comment> getComments(String accessId);
     
 }

@@ -39,6 +39,4 @@ public class CommentView {
     public Date getCreateTime(){
         return m_Comment.getCreatTime();
     }
-    
-    
 }
